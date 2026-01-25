@@ -10,18 +10,35 @@ fashion collections in a clean and organized way.
 The project is designed to evolve into a full online store experience,
 combining aesthetics with functionality.
 ---
-## Contact Form
-The contact page includes:
-- Name input
-- Email input
-- Message textarea
-- Submit button
+## Database
+Table: products  
+Fields:
+- id
+- name
+- price
+- category
+- image
+- description
+
+## API Endpoints
+- GET /api/products
+- GET /api/products/:id
+- POST /api/products
+- PUT /api/products/:id
+- DELETE /api/products/:id
+
+## Features
+- Full CRUD operations
+- Search products using query parameters
+- Product page by ID
+- Static image support
 ---
 ## Technologies Used
 - Node.js
 - Express.js
 - HTML
 - CSS3
+- File System module (`fs`)
 ---
 ## How to Run the Project
 You should just copy and paste this two commands

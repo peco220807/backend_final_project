@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add product</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<h1>Add new product</h1>
+
+<form action="/add-product" method="POST">
+  <input type="text" name="name" placeholder="Product name" required>
+
+  <input type="number" name="price" placeholder="Price" required>
+
+  <select name="category" required>
+    <option value="">Choose category</option>
+    <option value="coat">Outerwear</option>
+    <option value="dress">Dress</option>
+    <option value="hoodie">Hoodie</option>
+    <option value="top">Top</option>
+    <option value="pants">Pants</option>
+    <option value="shoes">Shoes</option>
+  </select>
+
+  <input type="text" name="image" placeholder="Image path (e.g. /imgs/photo1.jpg)" required>
+
+  <textarea name="description" placeholder="Description" required></textarea>
+
+  <button type="submit">Add product</button>
+</form>
+
+</body>
+</html>
