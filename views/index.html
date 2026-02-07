@@ -10,6 +10,26 @@
     <header class="hero">
     <h1>DEZIRE</h1>
     <p class="subtitle">Fashion in Every Detail</p>
+
+    <div style="max-width:1100px;margin:28px auto 0;padding:0 24px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+        <span id="authStatus" style="font-size:13px;letter-spacing:2px;color:#444;"></span>
+
+        <button type="button" id="openLoginBtn">LOGIN</button>
+        <button type="button" id="logoutBtn" style="display:none;">LOGOUT</button>
+    </div>
+
+    <div id="loginBox" style="display:none;max-width:520px;margin:22px auto 0;padding:0 24px;">
+        <form id="loginForm" style="margin:0;background:#fff;">
+        <h2 style="margin:0 0 10px;">Admin Login</h2>
+        <input id="loginEmail" type="email" placeholder="Email" required />
+        <input id="loginPassword" type="password" placeholder="Password" required />
+        <div class="actions">
+            <button type="submit">Sign in</button>
+            <button type="button" id="closeLoginBtn">Cancel</button>
+        </div>
+        <p id="loginMsg" style="margin:0;"></p>
+        </form>
+    </div>
     </header>
 
     <main class="page">
@@ -20,14 +40,7 @@
         <input type="hidden" id="productId" />
 
         <input id="name" name="name" placeholder="Product name" required />
-        <input
-            id="price"
-            name="price"
-            type="number"
-            min="0"
-            step="1"
-            placeholder="Price"
-            required/>
+        <input id="price" name="price" type="number" min="0" step="1" placeholder="Price" required/>
 
         <select id="category" name="category" required>
             <option value="">Choose category</option>
@@ -38,24 +51,14 @@
             <option value="pants">Pants</option>
             <option value="shoes">Shoes</option>
         </select>
-        
-        <input
-            id="image"
-            name="image"
-            placeholder="/imgs/photo1.jpg"
-            required/>
 
-        <textarea
-            id="description"
-            name="description"
-            placeholder="Description (optional)"
-        ></textarea>
+        <input id="image" name="image" placeholder="/imgs/photo1.jpg" required/>
+
+        <textarea id="description" name="description" placeholder="Description (optional)"></textarea>
 
         <div class="actions">
             <button type="submit" id="submitBtn">Create</button>
-            <button type="button" id="cancelEditBtn" style="display: none">
-            Cancel edit
-            </button>
+            <button type="button" id="cancelEditBtn" style="display: none">Cancel edit</button>
         </div>
         </form>
 
