@@ -4,16 +4,13 @@
   "description": "DEZIRE is a modern web-based fashion platform inspired by clean and premium retail aesthetics.\r The project introduces curated clothing categories and will grow into a full e-commerce concept.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^6.0.0",
     "dotenv": "^17.2.3",
-    "express": "^5.2.1",
     "express-session": "^1.19.0",
     "mongodb": "^7.0.0",
     "pg": "^8.16.3"
@@ -25,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/peco220807/assignment1bcknd/issues"
   },
-  "homepage": "https://github.com/peco220807/assignment1bcknd#readme"
+  "homepage": "https://github.com/peco220807/assignment1bcknd#readme",
+  "devDependencies": {
+    "@typescript-eslint/parser": "^8.55.0",
+    "bcrypt": "^6.0.0",
+    "eslint": "^9.0.0",
+    "express": "^5.2.1",
+    "globals": "^17.3.0",
+    "jest": "^30.2.0",
+    "prettier": "^3.8.1"
+  }
 }
