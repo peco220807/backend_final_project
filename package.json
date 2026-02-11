@@ -2,7 +2,7 @@
   "name": "assignment1bcknd",
   "version": "1.0.0",
   "description": "DEZIRE is a modern web-based fashion platform inspired by clean and premium retail aesthetics.\r The project introduces curated clothing categories and will grow into a full e-commerce concept.",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "lint": "eslint ."
   },
