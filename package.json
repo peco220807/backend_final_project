@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peco220807/assignment1bcknd.git"
+    "url": "git+https://github.com/peco220807/backend_final_project.git"
   },
   "bugs": {
-    "url": "https://github.com/peco220807/assignment1bcknd/issues"
+    "url": "https://github.com/peco220807/backend_final_project.git"
   },
-  "homepage": "https://github.com/peco220807/assignment1bcknd#readme",
+  "homepage": "https://github.com/peco220807/backend_final_project.git#readme",
   "devDependencies": {
     "@typescript-eslint/parser": "^8.55.0",
     "bcrypt": "^6.0.0",
