@@ -9,6 +9,7 @@ const { connectDB, client, getDB } = require("./database/mongo")
 const productsRouter = require("./routes/products")
 const authRouter = require("./routes/auth")
 
+
 const app = express()
 const PORT = process.env.PORT || 3000
 
