@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>DesireStore · Orders</title>
+  <link rel="stylesheet" href="/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="/"><span class="brand-dot"></span>DesireStore</a>
+      <div class="nav-links">
+        <a href="/shop">Shop</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a class="pill" href="/cart">Cart <span class="badge" id="cartCount">0</span></a>
+        <a class="pill" id="adminLink" href="/admin" style="display:none">Admin</a>
+        <span id="authSlot" style="display:flex;gap:10px;align-items:center"></span>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="container section">
+    <div class="section-title">
+      <h2>Orders</h2>
+      <span class="muted">demo checkout</span>
+    </div>
+
+    <div class="grid" style="grid-template-columns:1fr 1fr;gap:14px">
+      <div class="card pad">
+        <div class="kicker">Checkout</div>
+        <div class="h2">Create an order</div>
+        <p class="muted" style="margin:10px 0 0">This creates an order from your current cart, calculates total, and clears the cart.</p>
+        <div style="margin-top:12px">
+          <button class="btn primary" id="placeOrder">Place order</button>
+        </div>
+
+        <div id="lastTotalCard" class="card pad hidden" style="margin-top:14px">
+          <div class="kicker">Last order total</div>
+          <div class="h2" id="lastTotal">$0.00</div>
+        </div>
+      </div>
+
+      <div class="card pad">
+        <div class="kicker">History</div>
+        <div class="h2">Your orders</div>
+        <div style="display:grid;gap:12px;margin-top:12px" id="ordersList"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/orders.js"></script>
+
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="/app.js"></script>
+</body>
+</html>

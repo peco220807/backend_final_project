@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>DesireStore · Shop</title>
+  <link rel="stylesheet" href="/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="/"><span class="brand-dot"></span>DesireStore</a>
+      <div class="nav-links">
+        <a href="/shop">Shop</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a class="pill" href="/cart">Cart <span class="badge" id="cartCount">0</span></a>
+        <a class="pill" id="adminLink" href="/admin" style="display:none">Admin</a>
+        <span id="authSlot" style="display:flex;gap:10px;align-items:center"></span>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="container section">
+    <div class="section-title">
+      <h2>Shop</h2>
+      <span id="resultsMeta">Loading…</span>
+    </div>
+
+    <div class="shop-layout">
+      <div class="card pad sidebar">
+        <div class="kicker">Categories</div>
+        <div style="display:grid;gap:10px;margin-top:12px" id="categories"></div>
+        <div class="hr"></div>
+        <div class="small">Look around freely. We provide.</div>
+      </div>
+
+      <div>
+        <div class="products" id="productGrid"></div>
+
+        <div style="display:flex;gap:10px;justify-content:flex-end;margin-top:14px">
+          <button class="btn" id="prevPage">Prev</button>
+          <button class="btn" id="nextPage">Next</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/shop.js"></script>
+
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>DesireStore · Home</title>
+  <link rel="stylesheet" href="/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="/"><span class="brand-dot"></span>DesireStore</a>
+      <div class="nav-links">
+        <a href="/shop">Shop</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a class="pill" href="/cart">Cart <span class="badge" id="cartCount">0</span></a>
+        <a class="pill" id="adminLink" href="/admin" style="display:none">Admin</a>
+        <span id="authSlot" style="display:flex;gap:10px;align-items:center"></span>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="container hero">
+    <div class="grid hero-grid">
+      <div>
+        <div class="kicker">Modern clothing store</div>
+        <h1>Minimal pieces. Clean lines. No drama.</h1>
+        <p>Curated essentials designed to mix, match, and survive real life.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="/shop">Browse catalog</a>
+          <a class="btn" href="/contact">Ask about an order</a>
+        </div>
+      </div>
+      <div class="card pad">
+        <div class="kicker">Enjoy</div>
+        <div class="h2">Endless collections</div>
+        <p class="muted" style="margin:10px 0 0">We inspire, we <code>present</code>. And you follow along.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container section">
+    <div class="section-title">
+      <h2>Featured moodboard</h2>
+    </div>
+
+    <div class="card pad">
+      <div class="mosaic">
+        <div class="tile tall"><img src="/imgs/hero1.jpg" alt="hero"></div>
+        <div class="tile"><img src="/imgs/hero2.jpg" alt="hero"></div>
+        <div class="tile"><img src="/imgs/hero3.jpg" alt="hero"></div>
+        <div class="tile"><img src="/imgs/hero4.jpg" alt="hero"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="/app.js"></script>
+</body>
+</html>

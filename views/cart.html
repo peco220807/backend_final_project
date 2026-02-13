@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>DesireStore · Cart</title>
+  <link rel="stylesheet" href="/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="/"><span class="brand-dot"></span>DesireStore</a>
+      <div class="nav-links">
+        <a href="/shop">Shop</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a class="pill" href="/cart">Cart <span class="badge" id="cartCount">0</span></a>
+        <a class="pill" id="adminLink" href="/admin" style="display:none">Admin</a>
+        <span id="authSlot" style="display:flex;gap:10px;align-items:center"></span>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="container section">
+    <div class="section-title">
+      <h2>Your cart</h2>
+      <span class="muted">stored in MongoDB per user</span>
+    </div>
+
+    <div class="card pad">
+      <div id="cartEmpty" class="small hidden">Cart is empty. Go to <a href="/shop" style="text-decoration:underline">Shop</a>.</div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th class="right">Price</th>
+            <th class="right">Qty</th>
+            <th class="right">Total</th>
+            <th class="right"></th>
+          </tr>
+        </thead>
+        <tbody id="cartBody"></tbody>
+      </table>
+
+      <div class="hr"></div>
+
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+        <button class="btn" id="clearCart">Clear</button>
+        <div style="display:flex;align-items:center;gap:12px">
+          <div class="kicker">Subtotal</div>
+          <div class="h2" id="cartTotal">$0.00</div>
+          <button class="btn primary" id="checkout">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/cart.js"></script>
+
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="/app.js"></script>
+</body>
+</html>

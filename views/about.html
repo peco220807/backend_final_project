@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>DesireStore · About</title>
+  <link rel="stylesheet" href="/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="/"><span class="brand-dot"></span>DesireStore</a>
+      <div class="nav-links">
+        <a href="/shop">Shop</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a class="pill" href="/cart">Cart <span class="badge" id="cartCount">0</span></a>
+        <a class="pill" id="adminLink" href="/admin" style="display:none">Admin</a>
+        <span id="authSlot" style="display:flex;gap:10px;align-items:center"></span>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="container section">
+    <div class="section-title">
+      <h2>About</h2>
+      <span class="muted">merely about us</span>
+    </div>
+
+    <div class="card pad">
+      <div class="kicker">DesireStore</div>
+      <div class="h2">Minimal clothing catalog for our dearest users.</div>
+      <p class="muted" style="margin-top:10px;max-width:75ch">
+        Offers a diverse range of modern clothing, including hoodies, layers, and elite jackets. Desire Fashion Shop provides a unique, stylish approach to modern fashion, catering to a diverse range of customer preferences. 
+      </p>
+      <div class="hr"></div>
+      <div class="small">
+        Focusing on modern cuts and premium fabrics.
+      </div>
+    </div>
+  </div>
+
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="/app.js"></script>
+</body>
+</html>

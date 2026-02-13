@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Minimalist Cotton Tee",
+    "category": "Men",
+    "price": 19.99,
+    "description": "Soft, breathable cotton with a clean neckline and a straight hem. Built for layering or wearing solo.",
+    "image": "/imgs/p01.jpg"
+  },
+  {
+    "name": "Oversized Linen Shirt",
+    "category": "Accessories",
+    "price": 29.99,
+    "description": "Airy linen blend with a relaxed silhouette and minimalist buttons. Easy summer staple.",
+    "image": "/imgs/p02.jpg"
+  },
+  {
+    "name": "Tailored Straight Trousers",
+    "category": "Outerwear",
+    "price": 49.99,
+    "description": "Sharp lines, mid-rise fit, and a subtle stretch for comfort. Office-ready without trying too hard.",
+    "image": "/imgs/p03.jpg"
+  },
+  {
+    "name": "High-Waist Wide-Leg Pants",
+    "category": "Women",
+    "price": 54.99,
+    "description": "High-waist cut with a wide leg and crisp drape. Looks expensive even when you\u2019re not.",
+    "image": "/imgs/p04.jpg"
+  },
+  {
+    "name": "Ribbed Knit Top",
+    "category": "Men",
+    "price": 24.99,
+    "description": "Slim ribbed knit that hugs without suffocating. A basic that actually feels put together.",
+    "image": "/imgs/p05.jpg"
+  },
+  {
+    "name": "Satin Slip Dress",
+    "category": "Accessories",
+    "price": 59.99,
+    "description": "Bias-cut satin slip with adjustable straps. Minimal, sleek, and dangerously easy to style.",
+    "image": "/imgs/p06.jpg"
+  },
+  {
+    "name": "Wool Blend Coat",
+    "category": "Outerwear",
+    "price": 119.99,
+    "description": "Warm wool blend coat with a structured collar and hidden closure. Winter, but make it elegant.",
+    "image": "/imgs/p07.jpg"
+  },
+  {
+    "name": "Cropped Denim Jacket",
+    "category": "Women",
+    "price": 79.99,
+    "description": "Cropped denim jacket with clean seams and a modern boxy fit. Works over dresses or tees.",
+    "image": "/imgs/p08.jpg"
+  },
+  {
+    "name": "Pleated Midi Skirt",
+    "category": "Women",
+    "price": 44.99,
+    "description": "Light pleats, mid-calf length, and a smooth waistband. Moves nicely when you walk like you own the place.",
+    "image": "/imgs/p09.jpg"
+  },
+  {
+    "name": "Relaxed Fit Hoodie",
+    "category": "Accessories",
+    "price": 39.99,
+    "description": "Relaxed hoodie with a soft interior and minimal branding. Your comfort blanket, but socially acceptable.",
+    "image": "/imgs/p10.jpg"
+  },
+  {
+    "name": "Classic Chino Shorts",
+    "category": "Outerwear",
+    "price": 34.99,
+    "description": "Classic chino shorts with a tidy finish and functional pockets. Summer uniform material.",
+    "image": "/imgs/p11.jpg"
+  },
+  {
+    "name": "Structured Blazer",
+    "category": "Women",
+    "price": 99.99,
+    "description": "Structured blazer with a slightly oversized shoulder. Instantly upgrades any outfit.",
+    "image": "/imgs/p12.jpg"
+  },
+  {
+    "name": "Fine-Knit Sweater",
+    "category": "Men",
+    "price": 64.99,
+    "description": "Fine-knit sweater with a soft hand-feel and a neat cuff. Looks clean, feels cozy.",
+    "image": "/imgs/p13.jpg"
+  },
+  {
+    "name": "Leather Belt",
+    "category": "Accessories",
+    "price": 22.99,
+    "description": "Genuine leather belt with a matte buckle. The adult accessory that fixes everything.",
+    "image": "/imgs/p14.jpg"
+  },
+  {
+    "name": "Canvas Tote Bag",
+    "category": "Outerwear",
+    "price": 18.99,
+    "description": "Sturdy canvas tote with reinforced handles. For books, groceries, and your entire life.",
+    "image": "/imgs/p15.jpg"
+  },
+  {
+    "name": "Ribbed Beanie",
+    "category": "Women",
+    "price": 14.99,
+    "description": "Ribbed beanie in a neutral shade. Warm head, calmer vibe.",
+    "image": "/imgs/p16.jpg"
+  },
+  {
+    "name": "Silk Scarf",
+    "category": "Men",
+    "price": 27.99,
+    "description": "Light silk scarf with subtle pattern. Tie it, wrap it, or pretend you\u2019re in a fashion editorial.",
+    "image": "/imgs/p17.jpg"
+  },
+  {
+    "name": "Puffer Vest",
+    "category": "Accessories",
+    "price": 69.99,
+    "description": "Lightweight puffer vest with easy layering fit. Warm core, free arms.",
+    "image": "/imgs/p18.jpg"
+  },
+  {
+    "name": "Cardigan with Buttons",
+    "category": "Outerwear",
+    "price": 58.99,
+    "description": "Buttoned cardigan with a relaxed fit and tidy neckline. The \u2018I tried\u2019 layer.",
+    "image": "/imgs/p19.jpg"
+  },
+  {
+    "name": "Straight-Leg Jeans",
+    "category": "Women",
+    "price": 62.99,
+    "description": "Straight-leg jeans with a mid-rise waist and clean wash. Reliable, timeless, and forgiving.",
+    "image": "/imgs/p20.jpg"
+  }
+]

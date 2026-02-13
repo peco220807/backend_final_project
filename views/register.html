@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>DesireStore · Register</title>
+  <link rel="stylesheet" href="/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="/"><span class="brand-dot"></span>DesireStore</a>
+      <div class="nav-links">
+        <a href="/shop">Shop</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a class="pill" href="/cart">Cart <span class="badge" id="cartCount">0</span></a>
+        <a class="pill" id="adminLink" href="/admin" style="display:none">Admin</a>
+        <span id="authSlot" style="display:flex;gap:10px;align-items:center"></span>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="container section">
+    <div class="section-title">
+      <h2>Create account</h2>
+      <span class="muted">bcrypt + sessions</span>
+    </div>
+
+    <div class="card pad" style="max-width:520px">
+      <form class="form" id="registerForm">
+        <input class="input" name="email" type="email" placeholder="Email" required>
+        <input class="input" name="password" type="password" placeholder="Password (min 6 chars)" required>
+        <button class="btn primary" type="submit">Register</button>
+      </form>
+      <div class="hr"></div>
+      <div class="small">Already have an account? <a href="/login" style="text-decoration:underline">Login</a>.</div>
+    </div>
+  </div>
+
+  <script src="/auth.js"></script>
+
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
